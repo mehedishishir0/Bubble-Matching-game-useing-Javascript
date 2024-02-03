@@ -3,7 +3,7 @@ let  rendm = 0;
 var score = 0;
 
 function increaescore(){
-  score += 10;
+  score += 3;
   document.querySelector('#Score').textContent = score;
 }
 
@@ -35,7 +35,7 @@ if(clicknum === rendm){
 })
 
 let timercount = document.querySelector("#timercount");
-var timer = 59;
+var timer = 30;
 function runtimer() {
   let settime = setInterval(() => {
     if (timer >= 0) {
